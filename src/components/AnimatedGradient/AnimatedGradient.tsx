@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { GradientPath, GradientSVG } from "./AnimatedGradient.style";
 
-export const AnimatedGradient = () => {
+export const AnimatedGradient: () => JSX.Element = () => {
   const [color, setColor] = useState<string>("#006EFF");
 
   useEffect(() => {
     let timer = setInterval(() => {
-      let randomNumberOfColor = Math.floor(Math.random() * 2 ** 24)
+      let randomNumberOfColor: string = Math.floor(Math.random() * 2 ** 24)
         .toString(16)
         .padStart(6, "0");
 
