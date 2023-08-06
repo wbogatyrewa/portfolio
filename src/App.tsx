@@ -1,10 +1,13 @@
 import React from "react";
-import { AnimatedGradient } from "./components/AnimatedGradient/AnimatedGradient";
+import { AnimatedGradient } from "./components/AnimatedGradient";
+import { Container } from "./components/Container";
 
 function App() {
   return (
     <div className="App">
-      <AnimatedGradient />
+      <Container>
+        <AnimatedGradient />
+      </Container>
     </div>
   );
 }
