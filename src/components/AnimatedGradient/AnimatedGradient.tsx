@@ -2,28 +2,15 @@ import React, { useEffect, useState } from "react";
 import { GradientPath, GradientSVG } from "./AnimatedGradient.style";
 
 export const AnimatedGradient = () => {
-  const [color, setColor] = useState<string>("rgb(0, 110, 255)");
-  const accentColors: string[] = [
-    "rgb(0, 110, 255)",
-    "rgb(59, 0, 255)",
-    "rgb(121, 0, 255)",
-    "rgb(136, 0, 255)",
-    "rgb(144, 0, 255)",
-    "rgb(184, 0, 255)",
-    "rgb(230, 0, 255)",
-    "rgb(255, 0, 255)",
-    "rgb(255, 0, 192)",
-    "rgb(255, 0, 116)",
-    "rgb(255, 0, 92)",
-    "rgb(255, 0, 49)",
-    "rgb(255, 255, 78)",
-  ];
+  const [color, setColor] = useState<string>("#006EFF");
 
   useEffect(() => {
     let timer = setInterval(() => {
-      let randomNumberOfColor =
-        Math.floor(Math.random() * accentColors.length) + 1;
-      setColor(accentColors[randomNumberOfColor]);
+      let randomNumberOfColor = Math.floor(Math.random() * 2 ** 24)
+        .toString(16)
+        .padStart(6, "0");
+
+      setColor(`#${randomNumberOfColor}`);
     }, 3e3);
     return () => {
       clearInterval(timer);
