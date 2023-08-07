@@ -10,7 +10,7 @@ export const Container = styled.div`
   }
 
   @media (min-width: 992px) {
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
   }
 `;
