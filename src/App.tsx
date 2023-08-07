@@ -4,6 +4,7 @@ import { Main } from "./components/Main";
 import { AnimatedGradient } from "./components/AnimatedGradient";
 import { AnimatedGradientContainer } from "./App.style";
 import { Header } from "./components/Header";
+import { About } from "./components/About";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         </AnimatedGradientContainer>
         <Header />
         <Main />
+        <About />
       </Container>
     </div>
   );
