@@ -3,8 +3,8 @@ import React from "react";
 export const GithubIcon: () => JSX.Element = () => {
   return (
     <svg
-      width="100%"
-      height="100%"
+      width="85%"
+      height="85%"
       viewBox="0 0 96 96"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
