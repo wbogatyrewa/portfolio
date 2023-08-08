@@ -21,16 +21,16 @@ export const H2 = styled.h2`
 `;
 
 export const P = styled.p`
-  font-size: 1.2rem;
-  line-height: 40px;
+  font-size: 1rem;
+  line-height: 30px;
 
   @media (min-width: 768px) {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 60px;
   }
 
   @media (min-width: 2000px) {
-    font-size: 2.2rem;
+    font-size: 2rem;
     line-height: 60px;
   }
 `;
