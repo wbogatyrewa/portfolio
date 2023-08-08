@@ -9,6 +9,7 @@ import {
 import { Header } from "./components/Header";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
+import { Work } from "./components/Work";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Header />
         <Main />
         <About />
+        <Work />
         <Contact />
         <AnimatedGradientContactContainer>
           <AnimatedGradient />
