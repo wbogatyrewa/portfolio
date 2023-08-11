@@ -5,7 +5,8 @@ export const Stars = styled.div`
   overflow: hidden;
   min-width: 100vw;
   min-height: 100vh;
-  margin-bottom: -350px;
+  margin-bottom: -100vh;
+  z-index: -1;
 
   & :nth-of-type(2n) {
     background-position: 100px 100px;
