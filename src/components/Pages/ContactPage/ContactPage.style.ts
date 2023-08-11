@@ -1,21 +1,7 @@
 import styled from "@emotion/styled";
 
-export const ContactContainer = styled.section`
-  width: 100%;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-`;
-
-export const HeadingContainer = styled.div`
-  text-align: center;
-  text-transform: uppercase;
-  padding: 20px 0;
-  margin-bottom: 5vh;
-`;
-
 export const ContactList = styled.ul`
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10vh auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,7 +20,7 @@ export const ListItem = styled.li`
   padding: 0 5px;
 
   @media (min-width: 768px) {
-    padding: 0 15px;
+    padding: 0 25px;
   }
 `;
 
