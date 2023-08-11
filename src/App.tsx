@@ -5,6 +5,7 @@ import { Main } from "./components/Main";
 import { StarsBackground } from "./components/StarsBackground";
 import { AboutPage } from "./components/Pages/AboutPage";
 import { Contact } from "./components/Pages/ContactPage";
+import { EducationPage } from "./components/Pages/EducationPage";
 
 function App() {
   return (
@@ -27,7 +28,14 @@ function App() {
             </Container>
           }
         />
-        <Route path="education" element={<Container></Container>} />
+        <Route
+          path="education"
+          element={
+            <Container>
+              <EducationPage />
+            </Container>
+          }
+        />
         <Route path="skills" element={<Container></Container>} />
         <Route path="work" element={<Container></Container>} />
         <Route

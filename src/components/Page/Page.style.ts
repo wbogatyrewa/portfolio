@@ -24,8 +24,11 @@ export const ChildrenContainer = styled.div`
   margin: 5vh 0;
   line-height: 30px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 992px) {
     margin: 5vh 100px;
+  }
+
+  @media (min-width: 1920px) {
     line-height: 40px;
   }
 `;
