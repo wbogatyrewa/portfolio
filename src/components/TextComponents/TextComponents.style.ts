@@ -13,6 +13,11 @@ export const H1 = styled.h1`
     font-size: 3rem;
     line-height: 60px;
   }
+
+  @media (min-width: 1920px) {
+    font-size: 4rem;
+    line-height: 70px;
+  }
 `;
 
 export const H2 = styled.h2`
