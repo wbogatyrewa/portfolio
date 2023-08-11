@@ -32,7 +32,7 @@ const contacts: ContactData[] = [
 
 export const Contact: () => JSX.Element = () => {
   return (
-    <Page src={"/images/contact.png"} alt={"contact planet"} title={"Contact"}>
+    <Page src={"./images/contact.png"} alt={"contact planet"} title={"Contact"}>
       <ContactList>{generateContactList(contacts)}</ContactList>
     </Page>
   );

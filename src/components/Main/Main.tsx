@@ -9,31 +9,31 @@ import { PageButton, PageButtonData } from "../PageButton";
 
 const pageButtonDataList: PageButtonData[] = [
   {
-    src: "/images/about.png",
+    src: "./images/about.png",
     alt: "about planet",
     title: "About",
     link: "about",
   },
   {
-    src: "/images/education.png",
+    src: "./images/education.png",
     alt: "education planet",
     title: "Education",
     link: "education",
   },
   {
-    src: "/images/skills.png",
+    src: "./images/skills.png",
     alt: "skills planet",
     title: "Skills",
     link: "skills",
   },
   {
-    src: "/images/work.png",
+    src: "./images/work.png",
     alt: "work planet",
     title: "Work",
     link: "work",
   },
   {
-    src: "/images/contact.png",
+    src: "./images/contact.png",
     alt: "contact planet",
     title: "Contact",
     link: "contact",

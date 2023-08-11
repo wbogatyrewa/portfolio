@@ -4,7 +4,7 @@ import { RedText } from "../../TextComponents";
 
 export const SkillsPage: () => JSX.Element = () => {
   return (
-    <Page src={"/images/skills.png"} alt={"skills planet"} title={"Skills"}>
+    <Page src={"./images/skills.png"} alt={"skills planet"} title={"Skills"}>
       I am constantly learning and using the following
       <RedText> technologies</RedText>:
       <ul>

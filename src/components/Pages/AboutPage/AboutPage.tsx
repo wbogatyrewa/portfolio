@@ -4,7 +4,7 @@ import { RedText } from "../../TextComponents";
 
 export const AboutPage: () => JSX.Element = () => {
   return (
-    <Page src={"/images/about.png"} alt={"about planet"} title={"About"}>
+    <Page src={"./images/about.png"} alt={"about planet"} title={"About"}>
       HI! My name is <RedText>Veronika Bogatyreva</RedText> and I am a{" "}
       <RedText>web developer</RedText>. I have about 1 year of experience in
       commercial development in this area. I specialize in creating interfaces
