@@ -6,6 +6,7 @@ import { StarsBackground } from "./components/StarsBackground";
 import { AboutPage } from "./components/Pages/AboutPage";
 import { Contact } from "./components/Pages/ContactPage";
 import { EducationPage } from "./components/Pages/EducationPage";
+import { SkillsPage } from "./components/Pages/SkillsPage";
 
 function App() {
   return (
@@ -36,7 +37,14 @@ function App() {
             </Container>
           }
         />
-        <Route path="skills" element={<Container></Container>} />
+        <Route
+          path="skills"
+          element={
+            <Container>
+              <SkillsPage />
+            </Container>
+          }
+        />
         <Route path="work" element={<Container></Container>} />
         <Route
           path="contact"
