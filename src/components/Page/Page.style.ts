@@ -22,7 +22,10 @@ export const Img = styled.img`
 
 export const ChildrenContainer = styled.div`
   margin: 5vh 0;
+  line-height: 30px;
+
   @media (min-width: 1920px) {
     margin: 5vh 100px;
+    line-height: 40px;
   }
 `;
