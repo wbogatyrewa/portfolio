@@ -5,7 +5,7 @@ import { Link } from "./WorkPage.style";
 
 export const WorkPage: () => JSX.Element = () => {
   return (
-    <Page src={"./images/work.png"} alt={"work planet"} title={"Work"}>
+    <Page src={"/images/work.png"} alt={"work planet"} title={"Work"}>
       <RedText>Projects</RedText> in which I took an active part:
       <ul>
         <li>

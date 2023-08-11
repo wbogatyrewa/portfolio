@@ -3,9 +3,9 @@
   font-style: normal;
   font-weight: 400;
   src: 
-    url('./fonts/Bungee_Inline/BungeeInline-Regular.ttf') format('ttf'),
-    url('./fonts/Bungee_Inline/Bungee-Inline.woff') format('woff'),
-    url('./fonts/Bungee_Inline/Bungee-Inline.woff2') format('woff2');
+    url('/fonts/Bungee_Inline/BungeeInline-Regular.ttf') format('ttf'),
+    url('/fonts/Bungee_Inline/Bungee-Inline.woff') format('woff'),
+    url('/fonts/Bungee_Inline/Bungee-Inline.woff2') format('woff2');
 }
 
 @font-face {
@@ -13,9 +13,9 @@
   font-style: normal;
   font-weight: 400;
   src: 
-    url('./fonts/Bungee/Bungee-Regular.ttf') format('ttf'),
-    url('./fonts/Bungee/Bungee-Regular.woff') format('woff'),
-    url('./fonts/Bungee/Bungee-Regular.woff2') format('woff2');
+    url('/fonts/Bungee/Bungee-Regular.ttf') format('ttf'),
+    url('/fonts/Bungee/Bungee-Regular.woff') format('woff'),
+    url('/fonts/Bungee/Bungee-Regular.woff2') format('woff2');
 }
 
 :root {

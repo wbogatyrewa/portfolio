@@ -5,7 +5,7 @@ import { RedText } from "../../TextComponents";
 export const EducationPage: () => JSX.Element = () => {
   return (
     <Page
-      src={"./images/education.png"}
+      src={"/images/education.png"}
       alt={"education planet"}
       title={"Education"}
     >
