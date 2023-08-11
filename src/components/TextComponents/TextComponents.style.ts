@@ -20,14 +20,6 @@ export const H1 = styled.h1`
   }
 `;
 
-export const H2 = styled.h2`
-  font-size: 1.8rem;
-
-  @media (min-width: 768px) {
-    font-size: 3.6rem;
-  }
-`;
-
 export const P = styled.p`
   font-size: 1rem;
   line-height: 30px;
@@ -41,4 +33,9 @@ export const P = styled.p`
     font-size: 2rem;
     line-height: 60px;
   }
+`;
+
+export const RedText = styled.div`
+  display: inline;
+  color: var(--red);
 `;
