@@ -14,7 +14,7 @@ export const Work: () => JSX.Element = () => {
         <H2>Work</H2>
       </HeadingContainer>
       <WorkCardContainer>
-        <WorkCard src="/images/DSF.jpg" alt="DSF project">
+        <WorkCard src="/images/DSF.png" alt="DSF project">
           <P>
             The DSF decentralized application is a blockchain platform that
             allows users to store stablecoins in a decentralized manner. <br />
@@ -24,7 +24,7 @@ export const Work: () => JSX.Element = () => {
             server and blockchain parts.
           </P>
         </WorkCard>
-        <WorkCard src="/images/EVoting.jpg" alt="EVoting project">
+        <WorkCard src="/images/EVoting.png" alt="EVoting project">
           <P>
             Thesis on the topic "Electronic voting system based on blockchain
             technology". I was engaged in the development of smart contracts in

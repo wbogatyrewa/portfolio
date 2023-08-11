@@ -13,12 +13,23 @@ export const HeadingContainer = styled.div`
 `;
 
 export const WorkCardContainer = styled.div`
-  div {
-    max-width: 70%;
-    margin-bottom: 15px;
+  & > div {
+    max-width: 100%;
+    margin-bottom: 5vw;
   }
 
   & div:nth-child(2n) {
+    margin-right: auto;
     margin-left: auto;
+  }
+
+  @media (min-width: 992px) {
+    & > div {
+      max-width: 60%;
+    }
+
+    & div:nth-child(2n) {
+      margin-right: 0;
+    }
   }
 `;
