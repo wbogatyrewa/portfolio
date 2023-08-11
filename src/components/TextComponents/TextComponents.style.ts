@@ -1,14 +1,17 @@
 import styled from "@emotion/styled";
 
 export const H1 = styled.h1`
-  font-size: 2rem;
+  font-size: 1.8rem;
+  line-height: 30px;
 
   @media (min-width: 768px) {
-    font-size: 4rem;
+    font-size: 2rem;
+    line-height: 40px;
   }
 
   @media (min-width: 992px) {
-    font-size: 6rem;
+    font-size: 3rem;
+    line-height: 60px;
   }
 `;
 
