@@ -1,6 +1,6 @@
 import React from "react";
 import { Page } from "../../Page";
-import { P, RedText } from "../../TextComponents";
+import { RedText } from "../../TextComponents";
 
 export const AboutPage: () => JSX.Element = () => {
   return (
