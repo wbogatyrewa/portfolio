@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&display=swap');
 
 :root {
-  --background-dark: #1E1E1E;
+  --background-dark: #110C46;
+  --yellow: #F9F367;
+  --red: #F24E1E;
 }
 
 * {
@@ -11,11 +13,9 @@
 body {
   margin: 0;
   background-color: var(--background-dark);
-  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Bungee', cursive, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  font-weight: 600;
-  color: #FFF;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,9 +24,13 @@ h1, h2, h3, h4, h5, p {
   margin: 0;
 }
 
+h1 {
+  font-family: 'Bungee Inline', cursive;
+}
+
 a {
-  font-weight: 400;
   text-decoration: none;
+  font-family: 'Bungee Inline', cursive;
 }
 
 nav, ul, ol {
