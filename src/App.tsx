@@ -7,6 +7,7 @@ import { AboutPage } from "./components/Pages/AboutPage";
 import { Contact } from "./components/Pages/ContactPage";
 import { EducationPage } from "./components/Pages/EducationPage";
 import { SkillsPage } from "./components/Pages/SkillsPage";
+import { WorkPage } from "./components/Pages/WorkPage/WorkPage";
 
 function App() {
   return (
@@ -45,7 +46,14 @@ function App() {
             </Container>
           }
         />
-        <Route path="work" element={<Container></Container>} />
+        <Route
+          path="work"
+          element={
+            <Container>
+              <WorkPage />
+            </Container>
+          }
+        />
         <Route
           path="contact"
           element={
