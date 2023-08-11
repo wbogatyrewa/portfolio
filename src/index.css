@@ -31,13 +31,13 @@
 body {
   margin: 0;
   background-color: var(--background-dark);
-  
   font-family: 'Bungee', cursive, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   color: var(--yellow);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, a {
