@@ -24,7 +24,9 @@ export const PageButtonImg = styled.img`
 `;
 
 export const PageButtonTitle = styled.div`
-  transform: translateY(-15px);
+  @media (min-width: 992px) {
+    transform: translateY(-15px);
+  }
 
   @media (min-width: 1920px) {
     font-size: 2rem;
