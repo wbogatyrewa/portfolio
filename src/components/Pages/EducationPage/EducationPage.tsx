@@ -16,7 +16,7 @@ export const EducationPage: () => JSX.Element = () => {
       At the university, I studied mathematics, probability theory, computer
       science, <RedText>algorithms and data structures</RedText>, computer
       systems architecture, databases, programming in <RedText>Python</RedText>,
-      <RedText>Java</RedText>, <RedText>C#</RedText>, <RedText>C++</RedText>.
+      <RedText> C#</RedText>, <RedText>C++</RedText>.
       <br />
       <br />
       During my studies, I was engaged in <RedText>scientific work</RedText> and
