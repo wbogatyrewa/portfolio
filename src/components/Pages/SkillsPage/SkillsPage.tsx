@@ -9,7 +9,7 @@ export const SkillsPage: () => JSX.Element = () => {
       <RedText> technologies</RedText>:
       <ul>
         <li>
-          HTML5, CSS3, <RedText> JavaScript / TypeScript</RedText>
+          HTML5, CSS3, <RedText> JavaScript, TypeScript</RedText>
         </li>
         <li>adaptability, responsiveness, Crossbrowser compatibility</li>
         <li>
