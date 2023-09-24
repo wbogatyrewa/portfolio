@@ -9,15 +9,16 @@ export const WorkPage: () => JSX.Element = () => {
       <RedText>Projects</RedText> in which I took an active part:
       <ul>
         <li>
-          The <RedText>DSF</RedText> decentralized application is a blockchain
-          platform that allows users to store stablecoins in a decentralized
-          manner. Within the framework of the project, my tasks were the
-          development of new web interface components, the use of the MUI
-          component library. I was also involved in linking the web interface
-          with the server and blockchain parts.
+          <RedText>Blog</RedText> site with user registration and authorization
+          (JSON Web Tokens). The site displays all posts by authors. Post
+          authors can edit and delete posts. The client part was created using
+          React, the server part - Node.js and Express.
           <br />
-          <Link href="https://app.dsf.finance/" target="_blank">
-            link to DSF project.
+          <Link
+            href="https://github.com/wbogatyrewa/records-api"
+            target="_blank"
+          >
+            link to github.
           </Link>
         </li>
         <li>
